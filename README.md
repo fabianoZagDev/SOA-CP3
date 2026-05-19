@@ -41,6 +41,8 @@ A API implementa uma arquitetura orientada a serviços (SOA) para identificar ve
 
 > **Diagrama de arquitetura:** disponível no arquivo `docs/arquitetura-soa.excalidraw`.
 
+![Arquitetura SOA — Ford VIN Share](docs/arquitetura-soa.png)
+
 O projeto segue separação clara em três camadas independentes:
 
 ```
