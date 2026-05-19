@@ -1,0 +1,36 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {"type":"rectangle","id":"bg1","x":35,"y":44,"width":870,"height":152,"backgroundColor":"#dbe4ff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#4a9eed","strokeWidth":1,"opacity":70,"angle":0,"groupIds":[],"frameId":null,"seed":1},
+    {"type":"text","id":"lbl1","x":52,"y":54,"width":400,"height":20,"text":"CAMADA DE APRESENTACAO","fontSize":14,"strokeColor":"#2563eb","fontFamily":1,"textAlign":"left","verticalAlign":"top","angle":0,"groupIds":[],"frameId":null,"seed":2},
+    {"type":"rectangle","id":"dash","x":75,"y":78,"width":185,"height":88,"backgroundColor":"#a5d8ff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#4a9eed","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":3,"label":{"text":"Dashboard\nConcessionaria","fontSize":18}},
+    {"type":"rectangle","id":"apiclient","x":368,"y":78,"width":205,"height":88,"backgroundColor":"#a5d8ff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#4a9eed","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":4,"label":{"text":"Cliente API\nPostman / App","fontSize":18}},
+    {"type":"rectangle","id":"swaggerui","x":678,"y":78,"width":205,"height":88,"backgroundColor":"#a5d8ff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#4a9eed","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":5,"label":{"text":"Swagger UI\n/swagger-ui.html","fontSize":18}},
+    {"type":"arrow","id":"a_dash_gw","x":167,"y":166,"width":303,"height":65,"points":[[0,0],[303,65]],"strokeColor":"#4a9eed","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":6},
+    {"type":"arrow","id":"a_api_gw","x":470,"y":166,"width":0,"height":65,"points":[[0,0],[0,65]],"strokeColor":"#4a9eed","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":7},
+    {"type":"arrow","id":"a_sw_gw","x":780,"y":166,"width":-190,"height":65,"points":[[0,0],[-190,65]],"strokeColor":"#4a9eed","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":8},
+    {"type":"rectangle","id":"gateway","x":305,"y":231,"width":330,"height":84,"backgroundColor":"#d0bfff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#8b5cf6","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":9,"label":{"text":"API Gateway — Spring Boot :8080\nGlobalExceptionHandler","fontSize":18}},
+    {"type":"rectangle","id":"bg2","x":35,"y":342,"width":870,"height":178,"backgroundColor":"#e5dbff","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#8b5cf6","strokeWidth":1,"opacity":70,"angle":0,"groupIds":[],"frameId":null,"seed":10},
+    {"type":"text","id":"lbl2","x":52,"y":354,"width":600,"height":20,"text":"CAMADA DE SERVICOS (SOA) — servicos independentes e reutilizaveis","fontSize":14,"strokeColor":"#6d28d9","fontFamily":1,"textAlign":"left","verticalAlign":"top","angle":0,"groupIds":[],"frameId":null,"seed":11},
+    {"type":"arrow","id":"a_gw_s1","x":375,"y":315,"width":-210,"height":60,"points":[[0,0],[-210,60]],"strokeColor":"#8b5cf6","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":12},
+    {"type":"arrow","id":"a_gw_s2","x":470,"y":315,"width":0,"height":60,"points":[[0,0],[0,60]],"strokeColor":"#8b5cf6","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":13},
+    {"type":"arrow","id":"a_gw_s3","x":565,"y":315,"width":212,"height":60,"points":[[0,0],[212,60]],"strokeColor":"#8b5cf6","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":14},
+    {"type":"rectangle","id":"svc1","x":45,"y":375,"width":240,"height":118,"backgroundColor":"#b2f2bb","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#22c55e","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":15,"label":{"text":"Analise de Dados\nVeiculoService\nGET /veiculos\nGET /{vin}/historico","fontSize":15}},
+    {"type":"rectangle","id":"svc2","x":350,"y":375,"width":240,"height":118,"backgroundColor":"#b2f2bb","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#22c55e","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":16,"label":{"text":"Leads Preditivos\nLeadService\nGET /leads\nPOST /leads/{id}/contato","fontSize":15}},
+    {"type":"rectangle","id":"svc3","x":655,"y":375,"width":240,"height":118,"backgroundColor":"#b2f2bb","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#22c55e","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":17,"label":{"text":"Comunicacao\nComunicacaoService\nDashboardService\nGET /dashboard/metricas","fontSize":15}},
+    {"type":"rectangle","id":"bg3","x":35,"y":525,"width":870,"height":148,"backgroundColor":"#d3f9d8","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#22c55e","strokeWidth":1,"opacity":70,"angle":0,"groupIds":[],"frameId":null,"seed":18},
+    {"type":"text","id":"lbl3","x":52,"y":537,"width":250,"height":20,"text":"CAMADA DE DADOS","fontSize":14,"strokeColor":"#15803d","fontFamily":1,"textAlign":"left","verticalAlign":"top","angle":0,"groupIds":[],"frameId":null,"seed":19},
+    {"type":"arrow","id":"a_s1_jpa","x":165,"y":493,"width":122,"height":55,"points":[[0,0],[122,55]],"strokeColor":"#22c55e","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":20},
+    {"type":"arrow","id":"a_s2_jpa","x":470,"y":493,"width":-183,"height":55,"points":[[0,0],[-183,55]],"strokeColor":"#22c55e","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":21},
+    {"type":"arrow","id":"a_s3_jpa","x":775,"y":493,"width":-488,"height":55,"points":[[0,0],[-488,55]],"strokeColor":"#22c55e","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":22},
+    {"type":"rectangle","id":"jpa","x":110,"y":558,"width":290,"height":86,"backgroundColor":"#c3fae8","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#0d9488","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":23,"label":{"text":"Spring Data JPA\n+ Flyway Migrations","fontSize":18}},
+    {"type":"arrow","id":"a_jpa_ora","x":400,"y":601,"width":105,"height":0,"points":[[0,0],[105,0]],"strokeColor":"#f97316","strokeWidth":2,"endArrowhead":"arrow","angle":0,"groupIds":[],"frameId":null,"seed":24,"label":{"text":"JDBC","fontSize":16}},
+    {"type":"rectangle","id":"oracle","x":505,"y":558,"width":290,"height":86,"backgroundColor":"#ffd8a8","fillStyle":"solid","roundness":{"type":3},"strokeColor":"#f97316","strokeWidth":2,"angle":0,"groupIds":[],"frameId":null,"seed":25,"label":{"text":"Oracle DB\noracle.fiap.com.br:1521","fontSize":18}}
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  }
+}
